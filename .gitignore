@@ -19,7 +19,9 @@
 .byebug_history
 
 # Ignore application configuration
+/config/master.key
 /config/application.yml
+/config/database.yml
 
 # Vim
 *.swp
@@ -30,3 +32,4 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+

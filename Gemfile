@@ -20,6 +20,7 @@ gem "redis",        "4.1.3"
 gem "sass-rails",   "6.0.0"
 gem "uglifier",     "4.2.0"
 gem "webpacker",    "5.1.1"
+gem 'figaro'
 
 group :development, :test do
   gem "byebug", platforms: %i[mri mingw x64_mingw]
